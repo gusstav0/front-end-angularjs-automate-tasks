@@ -1,0 +1,19 @@
+<html ng-app="cinqApp">
+<head>
+    <title>People</title>
+</head>
+<body ng-controller="PeopleController as palindromeCtrl">
+<div id="squares">
+    <div ng-repeat="person in palindromeCtrl.people">
+        <h2>{{person.name}}</h2>
+        <h4>{{person.disclosableInfo}}</h4>
+    </div>
+</div>
+​
+<script src="src/main/webapp/bower_components/angular/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="PeopleController.js"></script>
+<script src="PeopleService.js"></script>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+</body>
+</html>

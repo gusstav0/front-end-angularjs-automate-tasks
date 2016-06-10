@@ -1,0 +1,26 @@
+#squares div {
+    display: block;
+    float: left;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    #squares div {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #squares div {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    #squares div {
+        width: 30%;
+    }
+}
